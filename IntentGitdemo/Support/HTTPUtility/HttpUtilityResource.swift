@@ -17,14 +17,9 @@ struct HttpUtilityResource {
         guard let url = URL(string: request.encode()) else {
             return URL(string: "")!
         }
-        debugPrint(url)
         return url
     }
 }
 
 
-extension String {
-    func encode() -> String {
-        return self.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) ?? ""
-    }
-}
+

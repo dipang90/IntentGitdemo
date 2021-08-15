@@ -57,9 +57,6 @@ struct DateUtility {
         let serviceDate = DateUtility.stringFromDate(addedDate!)
         return serviceDate
     }
-    //      "created_at" : "2020-10-30T09:29:35+0000",
-    //      "policy_signed_at" : "2020-10-30T09:29:36.189222Z",
-    //2012-12-03T11:36:20Z
     
     static func UTCtoLocalDateNow(string : String) -> String {
         let dateFormatter = DateFormatter()
