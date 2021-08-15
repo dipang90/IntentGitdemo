@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension String {
+    func encode() -> String {
+        return self.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) ?? ""
+    }
+}
