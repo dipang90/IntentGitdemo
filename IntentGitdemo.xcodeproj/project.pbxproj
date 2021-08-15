@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		249A0B1E26C56347007B3FA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B1D26C56347007B3FA0 /* AppDelegate.swift */; };
 		249A0B2026C56347007B3FA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B1F26C56347007B3FA0 /* SceneDelegate.swift */; };
-		249A0B2226C56347007B3FA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B2126C56347007B3FA0 /* ViewController.swift */; };
 		249A0B2526C56347007B3FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249A0B2326C56347007B3FA0 /* Main.storyboard */; };
 		249A0B2726C5634B007B3FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249A0B2626C5634B007B3FA0 /* Assets.xcassets */; };
 		249A0B2A26C5634B007B3FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249A0B2826C5634B007B3FA0 /* LaunchScreen.storyboard */; };
 		249A0B3526C5634B007B3FA0 /* IntentGitdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B3426C5634B007B3FA0 /* IntentGitdemoTests.swift */; };
 		249A0B4026C5634B007B3FA0 /* IntentGitdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B3F26C5634B007B3FA0 /* IntentGitdemoUITests.swift */; };
+		249A0B5E26C56F34007B3FA0 /* RepositoryRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B5D26C56F34007B3FA0 /* RepositoryRequst.swift */; };
+		249A0B6626C56F48007B3FA0 /* RepositoryResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B6526C56F48007B3FA0 /* RepositoryResource.swift */; };
+		249A0B6B26C59130007B3FA0 /* RepositoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B6A26C59130007B3FA0 /* RepositoryResponse.swift */; };
+		249A0B8226C59470007B3FA0 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B7E26C59470007B3FA0 /* HttpUtility.swift */; };
+		249A0B8326C59470007B3FA0 /* HttpUtilityResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B7F26C59470007B3FA0 /* HttpUtilityResource.swift */; };
+		249A0B9126C594D7007B3FA0 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B9026C594D7007B3FA0 /* Header.swift */; };
+		249A0B9926C5983F007B3FA0 /* RepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B9826C5983F007B3FA0 /* RepositoryViewModel.swift */; };
+		249A0B9E26C59B19007B3FA0 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B9D26C59B19007B3FA0 /* RepositoryListViewController.swift */; };
+		249A0BA626C5A081007B3FA0 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249A0BA526C5A081007B3FA0 /* Color.xcassets */; };
+		249A0BB326C5A505007B3FA0 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0BB126C5A505007B3FA0 /* RepositoryTableViewCell.swift */; };
+		249A0BB426C5A505007B3FA0 /* RepositoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249A0BB226C5A505007B3FA0 /* RepositoryTableViewCell.xib */; };
+		249A0BC126C5A547007B3FA0 /* IntentLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0BBC26C5A547007B3FA0 /* IntentLabel.swift */; };
+		249A0BC326C5A547007B3FA0 /* IntentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0BBE26C5A547007B3FA0 /* IntentView.swift */; };
+		249A0BD426C5AED9007B3FA0 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0BD326C5AED9007B3FA0 /* DateUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +51,6 @@
 		249A0B1A26C56347007B3FA0 /* IntentGitdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntentGitdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249A0B1D26C56347007B3FA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		249A0B1F26C56347007B3FA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		249A0B2126C56347007B3FA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		249A0B2426C56347007B3FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		249A0B2626C5634B007B3FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		249A0B2926C5634B007B3FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		249A0B3B26C5634B007B3FA0 /* IntentGitdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntentGitdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		249A0B3F26C5634B007B3FA0 /* IntentGitdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentGitdemoUITests.swift; sourceTree = "<group>"; };
 		249A0B4126C5634B007B3FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249A0B5D26C56F34007B3FA0 /* RepositoryRequst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryRequst.swift; sourceTree = "<group>"; };
+		249A0B6526C56F48007B3FA0 /* RepositoryResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryResource.swift; sourceTree = "<group>"; };
+		249A0B6A26C59130007B3FA0 /* RepositoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryResponse.swift; sourceTree = "<group>"; };
+		249A0B7E26C59470007B3FA0 /* HttpUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
+		249A0B7F26C59470007B3FA0 /* HttpUtilityResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtilityResource.swift; sourceTree = "<group>"; };
+		249A0B9026C594D7007B3FA0 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		249A0B9826C5983F007B3FA0 /* RepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewModel.swift; sourceTree = "<group>"; };
+		249A0B9D26C59B19007B3FA0 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
+		249A0BA526C5A081007B3FA0 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		249A0BB126C5A505007B3FA0 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		249A0BB226C5A505007B3FA0 /* RepositoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryTableViewCell.xib; sourceTree = "<group>"; };
+		249A0BBC26C5A547007B3FA0 /* IntentLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentLabel.swift; sourceTree = "<group>"; };
+		249A0BBE26C5A547007B3FA0 /* IntentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentView.swift; sourceTree = "<group>"; };
+		249A0BD326C5AED9007B3FA0 /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +127,13 @@
 			children = (
 				249A0B1D26C56347007B3FA0 /* AppDelegate.swift */,
 				249A0B1F26C56347007B3FA0 /* SceneDelegate.swift */,
-				249A0B2126C56347007B3FA0 /* ViewController.swift */,
 				249A0B2326C56347007B3FA0 /* Main.storyboard */,
+				249A0B5026C56354007B3FA0 /* Model */,
+				249A0B5126C5635D007B3FA0 /* View */,
+				249A0B5626C56B9D007B3FA0 /* ViewModel */,
+				249A0B5726C56E60007B3FA0 /* Support */,
 				249A0B2626C5634B007B3FA0 /* Assets.xcassets */,
+				249A0BA526C5A081007B3FA0 /* Color.xcassets */,
 				249A0B2826C5634B007B3FA0 /* LaunchScreen.storyboard */,
 				249A0B2B26C5634B007B3FA0 /* Info.plist */,
 			);
@@ -126,6 +156,119 @@
 				249A0B4126C5634B007B3FA0 /* Info.plist */,
 			);
 			path = IntentGitdemoUITests;
+			sourceTree = "<group>";
+		};
+		249A0B5026C56354007B3FA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B5926C56E88007B3FA0 /* RequestModel */,
+				249A0B5A26C56E91007B3FA0 /* ResourceModel */,
+				249A0B5B26C56E9A007B3FA0 /* Responsemodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		249A0B5126C5635D007B3FA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B5C26C56EC9007B3FA0 /* Controllers */,
+				249A0BB026C5A4DC007B3FA0 /* TableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		249A0B5626C56B9D007B3FA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B9826C5983F007B3FA0 /* RepositoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		249A0B5726C56E60007B3FA0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				249A0BD226C5AEC5007B3FA0 /* Utility */,
+				249A0BBB26C5A547007B3FA0 /* IB Designable */,
+				249A0B8F26C594C5007B3FA0 /* Header */,
+				249A0B5826C56E6B007B3FA0 /* HTTPUtility */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		249A0B5826C56E6B007B3FA0 /* HTTPUtility */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B7E26C59470007B3FA0 /* HttpUtility.swift */,
+				249A0B7F26C59470007B3FA0 /* HttpUtilityResource.swift */,
+			);
+			path = HTTPUtility;
+			sourceTree = "<group>";
+		};
+		249A0B5926C56E88007B3FA0 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B5D26C56F34007B3FA0 /* RepositoryRequst.swift */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		249A0B5A26C56E91007B3FA0 /* ResourceModel */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B6526C56F48007B3FA0 /* RepositoryResource.swift */,
+			);
+			path = ResourceModel;
+			sourceTree = "<group>";
+		};
+		249A0B5B26C56E9A007B3FA0 /* Responsemodel */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B6A26C59130007B3FA0 /* RepositoryResponse.swift */,
+			);
+			path = Responsemodel;
+			sourceTree = "<group>";
+		};
+		249A0B5C26C56EC9007B3FA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B9D26C59B19007B3FA0 /* RepositoryListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		249A0B8F26C594C5007B3FA0 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				249A0B9026C594D7007B3FA0 /* Header.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		249A0BB026C5A4DC007B3FA0 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				249A0BB126C5A505007B3FA0 /* RepositoryTableViewCell.swift */,
+				249A0BB226C5A505007B3FA0 /* RepositoryTableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		249A0BBB26C5A547007B3FA0 /* IB Designable */ = {
+			isa = PBXGroup;
+			children = (
+				249A0BBC26C5A547007B3FA0 /* IntentLabel.swift */,
+				249A0BBE26C5A547007B3FA0 /* IntentView.swift */,
+			);
+			path = "IB Designable";
+			sourceTree = "<group>";
+		};
+		249A0BD226C5AEC5007B3FA0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				249A0BD326C5AED9007B3FA0 /* DateUtility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +374,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249A0BB426C5A505007B3FA0 /* RepositoryTableViewCell.xib in Resources */,
 				249A0B2A26C5634B007B3FA0 /* LaunchScreen.storyboard in Resources */,
+				249A0BA626C5A081007B3FA0 /* Color.xcassets in Resources */,
 				249A0B2726C5634B007B3FA0 /* Assets.xcassets in Resources */,
 				249A0B2526C56347007B3FA0 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +403,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249A0B2226C56347007B3FA0 /* ViewController.swift in Sources */,
+				249A0B8326C59470007B3FA0 /* HttpUtilityResource.swift in Sources */,
+				249A0B9126C594D7007B3FA0 /* Header.swift in Sources */,
+				249A0B9926C5983F007B3FA0 /* RepositoryViewModel.swift in Sources */,
+				249A0BB326C5A505007B3FA0 /* RepositoryTableViewCell.swift in Sources */,
+				249A0B6626C56F48007B3FA0 /* RepositoryResource.swift in Sources */,
+				249A0B5E26C56F34007B3FA0 /* RepositoryRequst.swift in Sources */,
 				249A0B1E26C56347007B3FA0 /* AppDelegate.swift in Sources */,
+				249A0BC326C5A547007B3FA0 /* IntentView.swift in Sources */,
+				249A0B8226C59470007B3FA0 /* HttpUtility.swift in Sources */,
+				249A0BD426C5AED9007B3FA0 /* DateUtility.swift in Sources */,
+				249A0BC126C5A547007B3FA0 /* IntentLabel.swift in Sources */,
+				249A0B6B26C59130007B3FA0 /* RepositoryResponse.swift in Sources */,
+				249A0B9E26C59B19007B3FA0 /* RepositoryListViewController.swift in Sources */,
 				249A0B2026C56347007B3FA0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,17 +592,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7T42N5Z3WK;
+				DEVELOPMENT_TEAM = 9R934APVSW;
 				INFOPLIST_FILE = IntentGitdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.intentgitdemo.app.IntentGitdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intentgitdemo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,17 +613,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7T42N5Z3WK;
+				DEVELOPMENT_TEAM = 9R934APVSW;
 				INFOPLIST_FILE = IntentGitdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.intentgitdemo.app.IntentGitdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intentgitdemo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

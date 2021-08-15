@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  IntentGitdemo
 //
-//  Created by Dipang Sheth on 8/12/21.
+//  Created by Dipang Sheth on 8/14/21.
 //
 
 import UIKit
@@ -14,9 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.setBarItems()
         return true
     }
-
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
@@ -32,5 +32,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate {
+    
+    fileprivate func setBarItems() {
+        UINavigationBar.appearance().barTintColor = .white
+        UINavigationBar.appearance().backgroundColor = .white
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().isTranslucent = false
+    }
 }
 
