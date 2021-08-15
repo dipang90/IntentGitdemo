@@ -7,6 +7,10 @@
 
 import Foundation
 
+/*
+ RepositoryResponse API - JSON - response model class. API response has been converted to model class
+  */
+
 struct RepositoryResponse: Decodable {
     var totalCount: Int?
     var incompleteResults: Bool?

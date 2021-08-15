@@ -7,6 +7,13 @@
 
 import Foundation
 
+/*
+ RepositoryViewModel is a ViewModel class where only business logic where implemented.
+ RepositoryViewModel is called RepositoryResource class.
+ Using a RepositoryViewModelDelegate Response will be sent to view class either response or error message
+ The completion handler has returned the response and error message
+ */
+
 protocol RepositoryViewModelDelegate {
     func didReceiveRepositoryResponse(repositoryResponse: RepositoryResponse?, errorMessage : String?)
 }
