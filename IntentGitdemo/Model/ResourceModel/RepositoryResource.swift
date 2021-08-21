@@ -8,7 +8,7 @@
 import Foundation
 /*
  RepositoryViewModel is called RepositoryResource class.
- HttpUtility() is a struct where the API get has integrated.
+ HttpUtility() is a "struct" where the API get has integrated.
  The completion handler has a response and error message
  */
 struct RepositoryResource
