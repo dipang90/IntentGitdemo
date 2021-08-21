@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     
     fileprivate func setBarItems() {
-        UINavigationBar.appearance().barTintColor = .yellow
+        UINavigationBar.appearance().barTintColor = .white
         UINavigationBar.appearance().backgroundColor = .white
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
