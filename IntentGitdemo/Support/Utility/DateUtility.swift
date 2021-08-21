@@ -8,7 +8,7 @@
 import Foundation
 
 struct DateUtility {
-    static var formate = "yyyy-MM-dd"
+    static var formate = ""
     static var timeZone = ""
     static var locale = ""
     static let calendar = Calendar.current
