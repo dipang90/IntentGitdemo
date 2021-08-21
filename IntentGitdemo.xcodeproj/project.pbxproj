@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		247E6DDE26C90456006DB042 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E6DDD26C90456006DB042 /* String+Extension.swift */; };
 		249A0B1E26C56347007B3FA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B1D26C56347007B3FA0 /* AppDelegate.swift */; };
 		249A0B2026C56347007B3FA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B1F26C56347007B3FA0 /* SceneDelegate.swift */; };
 		249A0B2526C56347007B3FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249A0B2326C56347007B3FA0 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		249A0B2A26C5634B007B3FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249A0B2826C5634B007B3FA0 /* LaunchScreen.storyboard */; };
 		249A0B3526C5634B007B3FA0 /* IntentGitdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B3426C5634B007B3FA0 /* IntentGitdemoTests.swift */; };
 		249A0B4026C5634B007B3FA0 /* IntentGitdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B3F26C5634B007B3FA0 /* IntentGitdemoUITests.swift */; };
-		249A0B5E26C56F34007B3FA0 /* RepositoryRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B5D26C56F34007B3FA0 /* RepositoryRequst.swift */; };
 		249A0B6626C56F48007B3FA0 /* RepositoryResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B6526C56F48007B3FA0 /* RepositoryResource.swift */; };
 		249A0B6B26C59130007B3FA0 /* RepositoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B6A26C59130007B3FA0 /* RepositoryResponse.swift */; };
 		249A0B8226C59470007B3FA0 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249A0B7E26C59470007B3FA0 /* HttpUtility.swift */; };
@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		247E6DDD26C90456006DB042 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		249A0B1A26C56347007B3FA0 /* IntentGitdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntentGitdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249A0B1D26C56347007B3FA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		249A0B1F26C56347007B3FA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		249A0B3B26C5634B007B3FA0 /* IntentGitdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntentGitdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		249A0B3F26C5634B007B3FA0 /* IntentGitdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentGitdemoUITests.swift; sourceTree = "<group>"; };
 		249A0B4126C5634B007B3FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		249A0B5D26C56F34007B3FA0 /* RepositoryRequst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryRequst.swift; sourceTree = "<group>"; };
 		249A0B6526C56F48007B3FA0 /* RepositoryResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryResource.swift; sourceTree = "<group>"; };
 		249A0B6A26C59130007B3FA0 /* RepositoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryResponse.swift; sourceTree = "<group>"; };
 		249A0B7E26C59470007B3FA0 /* HttpUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
@@ -102,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247E6DDC26C90444006DB042 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				247E6DDD26C90456006DB042 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		249A0B1126C56347007B3FA0 = {
 			isa = PBXGroup;
 			children = (
@@ -188,10 +196,11 @@
 		249A0B5726C56E60007B3FA0 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				247E6DDC26C90444006DB042 /* Extensions */,
+				249A0B5826C56E6B007B3FA0 /* HTTPUtility */,
 				249A0BD226C5AEC5007B3FA0 /* Utility */,
 				249A0BBB26C5A547007B3FA0 /* IB Designable */,
 				249A0B8F26C594C5007B3FA0 /* Header */,
-				249A0B5826C56E6B007B3FA0 /* HTTPUtility */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -208,7 +217,6 @@
 		249A0B5926C56E88007B3FA0 /* RequestModel */ = {
 			isa = PBXGroup;
 			children = (
-				249A0B5D26C56F34007B3FA0 /* RepositoryRequst.swift */,
 			);
 			path = RequestModel;
 			sourceTree = "<group>";
@@ -408,10 +416,10 @@
 				249A0B9926C5983F007B3FA0 /* RepositoryViewModel.swift in Sources */,
 				249A0BB326C5A505007B3FA0 /* RepositoryTableViewCell.swift in Sources */,
 				249A0B6626C56F48007B3FA0 /* RepositoryResource.swift in Sources */,
-				249A0B5E26C56F34007B3FA0 /* RepositoryRequst.swift in Sources */,
 				249A0B1E26C56347007B3FA0 /* AppDelegate.swift in Sources */,
 				249A0BC326C5A547007B3FA0 /* IntentView.swift in Sources */,
 				249A0B8226C59470007B3FA0 /* HttpUtility.swift in Sources */,
+				247E6DDE26C90456006DB042 /* String+Extension.swift in Sources */,
 				249A0BD426C5AED9007B3FA0 /* DateUtility.swift in Sources */,
 				249A0BC126C5A547007B3FA0 /* IntentLabel.swift in Sources */,
 				249A0B6B26C59130007B3FA0 /* RepositoryResponse.swift in Sources */,

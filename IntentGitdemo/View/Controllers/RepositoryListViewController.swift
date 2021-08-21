@@ -33,7 +33,7 @@ class RepositoryListViewController: UIViewController {
     
     var repositories = [RepositoryItem]()
     var repositoryViewModel = RepositoryViewModel()
-    var parPageCount = 10
+    var parPageCount = 20
     var pageNumeber = 1
     
     override func viewDidLoad() {
